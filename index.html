@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>ww.skippoaliamin.com</title>
+        <link rel="stylesheet" href="styles.css">
+        <title>A Simple Form</title>
     </head>
     <body>
-        <h1>ALIAMIN SKIPPO</h1>
-        <p>
-            Hey there,
-            i am a plumber
-        </p>
+        <h1>Address Form</h1>
+
+        <form>
+            <label for="first name"><span> Enter Firstname:</span></label>
+            <input type="text" id="first name" name="first name" placeholder="Enter your first name" required>
+            <br><br>
+            <label for="last name"><span class="last"> Enter your Lastname:</span></label>
+            <input type="text" id="last name" name="last name" placeholder="Enter your last name" required>
+            <br><br>
+            <label for="age"><span class="age"> Choose your age:</span></label>
+            <input type="number" id="age" name="age" placeholder="Choose your age" required>
+            <br><br>
+            <label for="address"><span class="address"> Enter your address:</span></label>
+            <input class="address" type="text" id="address" name="address" placeholder="Fill in your address" required>
+            <br><br>
+        </form>
+        <input class="submit" type="submit" value="Submit the form">
     </body>
-    
+
+
 </html>
